@@ -1,0 +1,9 @@
+services:
+  discord-bot:
+    build: .
+    container_name: homelab-discord-bot
+    env_file:
+      - .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped

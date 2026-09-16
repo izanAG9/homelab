@@ -10,3 +10,4 @@ docker/minecraft-cobblemon/backups/
 # Minecraft mods
 *.jar
 docker/minecraft-forge/data-backup-1.20.2/
+discord-bot/.env
