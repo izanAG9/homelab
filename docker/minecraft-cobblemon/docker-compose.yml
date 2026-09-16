@@ -1,0 +1,25 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft-cobblemon
+
+    tty: true
+    stdin_open: true
+
+    ports:
+      - "25566:25565"
+
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21.1"
+      MEMORY: "8G"
+
+      MODRINTH_PROJECTS: |
+        fabric-api
+        cobblemon
+
+    volumes:
+      - ./data:/data
+
+    restart: unless-stopped

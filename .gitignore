@@ -1,0 +1,12 @@
+# Minecraft server data
+docker/minecraft-forge/data/
+docker/minecraft-cobblemon/data/
+
+# Backups and logs
+docker/minecraft-forge/backups/
+docker/minecraft-cobblemon/backups/
+*.log
+
+# Minecraft mods
+*.jar
+docker/minecraft-forge/data-backup-1.20.2/
