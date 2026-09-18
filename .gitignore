@@ -11,3 +11,4 @@ docker/minecraft-cobblemon/backups/
 *.jar
 docker/minecraft-forge/data-backup-1.20.2/
 discord-bot/.env
+docker/minecraft-forge/.empty_since
